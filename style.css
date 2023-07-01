@@ -854,6 +854,15 @@ span{
     .home .profession-box .profession:nth-child(4){
         transform: rotate(180deg) translate(-210px,-335px);
     }
+    .contact__container{
+        display: block;
+        margin: 0;
+        
+    }
+    .contact__form {
+        margin-left: 10rem;
+
+    }
     .contact_section .contact__information{
         padding-left: 0;
         position:absolute;
