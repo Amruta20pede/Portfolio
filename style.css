@@ -800,8 +800,8 @@ span{
 
     .home .profession-box .circle{
         position: fixed;
-        width:670px;
-        height:670px;
+        width:550px;
+        height:550px;
         z-index: -1;
     }
     .home .profession-container .overlay{
@@ -825,6 +825,10 @@ span{
     .about-img img{
         width: 70vw;
         margin-top: 3rem;
+    }
+     .projects__container.grid{
+        display: block;
+        margin: 0;
     }
 }
 @media(max-width:450px){
@@ -865,5 +869,39 @@ span{
     .about-img img{
         width: 90vw;
 
+    }
+     .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    }
+    .projects__container {
+        /* overflow: initial; */
+        gap: 1.5rem;
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 290px;  
+    }
+    .grid {
+        display: grid;
+        gap: 1.5rem;
+    }
+    
+    .contact__container{
+        display: block;
+        margin: 0;
+        
+    }
+    .contact__form {
+        margin-left: 10rem;
+
+    }
+    .qualification_container {
+        margin-left: 1rem;
+        margin-right:1rem;
+    }
+    
+    .qualification__subtitle{
+        display: inline-block;
+        font-size: 1rem;
+        margin-bottom: 1rem;
     }
 }
